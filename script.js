@@ -57,9 +57,25 @@ if (userName === "asik" & password === "rimon5893"){
 
 // Version 1: prompt() ব্যবহার করে (Beginner friendly)
 let marks = prompt("Enter your mark between(0-100)");
-marks = number(marks);
+// marks = Number(marks);hgh
 if(isNaN(marks)){
     console.log("❌ please enter a vaild number"); //123 not abc
 }else if(marks < 0 || marks > 100){
     console.log("❌ mark must be between 0 and 100");
+}else if(marks >= 80){
+    console.log("Grade A+");
+}
+else if(marks >= 70){
+    console.log("Grade A");
+}
+else if(marks >= 60){
+    console.log("Grade A-");
+}
+else if(marks >= 50){
+    console.log("Grade B");
+}
+else if(marks >= 40){
+    console.log("Grade C");
+}else{
+    console.log("Grade Fail");
 }
