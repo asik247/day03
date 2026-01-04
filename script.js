@@ -24,25 +24,25 @@ if(numbers % 2 == 0){
     console.log('the numbers is odd');
 }
 // Example 2: Grade system
-// let marks = 39;
-// if (marks>=80){
-//     console.log("A+");
-// }else if(marks>=70){
-//     console.log("A");
-// }
-// else if(marks>=60){
-//     console.log("A-");
-// }
-// else if(marks>=50){
-//     console.log("B");
-// }
-// else if(marks>=40){
-//     console.log("C");
-// }else if(marks>=33){
-//     console.log("D");
-// }else{
-//     console.log('Fail');
-
+let marks = 39;
+if (marks>=80){
+    console.log("A+");
+}else if(marks>=70){
+    console.log("A");
+}
+else if(marks>=60){
+    console.log("A-");
+}
+else if(marks>=50){
+    console.log("B");
+}
+else if(marks>=40){
+    console.log("C");
+}else if(marks>=33){
+    console.log("D");
+}else{
+    console.log('Fail');
+}
 // Real-Life Example: Login System
 let userName = 'asi';
 let password = 'rimon583'
